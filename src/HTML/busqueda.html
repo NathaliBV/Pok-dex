@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pokédex</title>
+
+    <link rel="stylesheet" href="../CSS/busqueda.css" />
+    <link rel="icon" type="image/png" href="../images/2.png" />
+</head>
+
+<body id="body">
+    <header class="header">
+        <div class="header-top">
+            <nav>
+                <div class="logo_image">
+                    <img src="../images/logo.png" width="210" height="80">
+                </div>
+            </nav>
+        </div>
+
+        <div class="nav2">
+            <div class="nombre" aling="center">
+
+                Name:<input type="text" id="poke-name" class="caja-buscar" name="pokemon-name"></form>
+                <button type="button" id="evolucion" onclick="getEvolution()">Evolution</button>
+          
+                Nombre:<input type="text" id="poke-name" class="caja-buscar" name="pokemon-name">
+
+                <select id="types-menu" class="Tipo">
+                        <option value="none-type" class="tipo_boton">Type:</option>
+                        <option value="Bug" id="bug">Bug</option>
+                        <option value="Dragon" id="dragon">Dragon</option>
+                        <option value="Electric" id="electric">Electric</option>
+                        <option value="Fighting" id="fighting">Fighting</option>
+                        <option value="Fire" id="fire">Fire</option>
+                        <option value="Flying" id="flying">Flying</option>
+                        <option value="Ghost" id="ghost">Ghost</option>
+                        <option value="Grass" id="grass">Grass</option>
+                        <option value="Ground" id="ground">Ground</option>
+                        <option value="Ice" id="ice">Ice</option>
+                        <option value="Normal" id="normal">Normal</option>
+                        <option value="Poison" id="poison">Poison</option>
+                        <option value="Psychic" id="psychic">Psychic</option>
+                        <option value="Rock" id="rock">Rock</option>
+                        <option value="Water" id="water">Water</option>
+                    </select>
+
+
+
+            </div>
+        </div>
+        </br>
+    </header>
+    <section id="main">
+        <section class="contenedor-pokemons">
+            <div id="pokemons-caja" class='pokemons-panel'>
+
+            </div>
+        </section>
+    </section>
+    </br>
+
+    <div class="botones">
+        <a id="logout" href="../index.html">
+            <button type="button" class="return">Return</button>
+        </a>
+        <a id="logout" href="busqueda.html">
+            <button type="button" class="return">Clean</button>
+        </a>
+    </div>
+
+    <div class="footer">
+        <img src="../images/footer.png" width="100%" alt="">
+    </div>
+
+
+    </footer>
+
+    </section>
+
+    <script type="module" src="../JS/main.js"></script>
+    <script type="module" src="../JS/data.js"></script>
+
+</body>
+
+</html>
