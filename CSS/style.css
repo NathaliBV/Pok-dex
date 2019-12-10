@@ -1,6 +1,6 @@
     @font-face {
         font-family: "Pokemon";
-        src: url("../images/Pokemon Solid.ttf");
+        src: url("../images/Pokemon Solid.otf");
     }
     
     * {
@@ -10,7 +10,7 @@
     }
     
     body {
-        background-image: url("../images/fondo.png");
+        background-image: url("https://image.freepik.com/vector-gratis/abstracta-fondo-azul-turquesa-brillo-dorado-que-cae_78474-304.jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -30,8 +30,8 @@
     
     .search {
         background-color: #B9D2DF;
-        font-family: 'Pokemon';
-        font-size: 150%;
+        font-family: "Tahoma";
+        font-size: 210%;
         color: #434A54;
         border-radius: 30px;
         border: 3px solid #434A54;
@@ -47,8 +47,8 @@
     
     .curiosities {
         background-color: #B9D2DF;
-        font-family: 'Pokemon';
-        font-size: 150%;
+        font-family: "Tahoma";
+        font-size: 210%;
         color: #434A54;
         border-radius: 30px;
         border: 3px solid #434A54;
