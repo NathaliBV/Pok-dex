@@ -111,6 +111,7 @@ nav {
     display: flex;
     justify-content: center;
     text-align: center;
+    cursor: pointer;
 }
 
 .return {
@@ -159,11 +160,11 @@ nav {
 .w3-modal-content {
     font-family: Pokemon;
     text-align: center;
-    width: 26% !important;
+    width: 23% !important;
 }
 
 .w3-container {
-    background-color: rgb(186, 222, 226);
+    background-color: rgb(112, 192, 201);
     color: #434A54;
     font-size: 160%;
     border-color: #434A54;

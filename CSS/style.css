@@ -10,9 +10,11 @@
     }
     
     body {
-        background-image: url("https://image.freepik.com/vector-gratis/abstracta-fondo-azul-turquesa-brillo-dorado-que-cae_78474-304.jpg");
+        background-image: url("../images/fondo.png");
         background-repeat: no-repeat;
         background-size: cover;
+        font-family: "Pokemon";
+        color: #434A54;
     }
     
     nav {
